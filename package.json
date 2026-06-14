@@ -1,0 +1,19 @@
+{
+  "name": "awesome-android-root-helper",
+  "version": "1.0.0",
+  "description": "A desktop GUI for Android ADB/Fastboot rooting operations",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "chmod +x scripts/device_check.sh scripts/flash_root.sh 2>/dev/null || true"
+  },
+  "keywords": ["android", "adb", "fastboot", "root", "electron"],
+  "author": "Awesome Android Root Helper",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}

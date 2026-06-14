@@ -1,4 +1,4 @@
-# 🤖 Awesome Android Root Helper
+# 🤖  Android Root Helper
 
 > A production-ready **Electron.js desktop app** (Linux, macOS, Windows) and **Termux CLI** (Android) for ADB/Fastboot Android rooting operations — real-time terminal output, native file picker, zero command-line knowledge required.
 
@@ -28,25 +28,25 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ 🤖  Awesome Android Root Helper      ADB / Fastboot Tool    │
+│ 🤖   Android Root Helper      ADB / Fastboot Tool    │
 ├─────────────────────────────────────────────────────────────┤
 │ ● Ready — connect your Android device via USB               │
 ├─────────────────────────────────────────────────────────────┤
 │  ┌──────────────────────┐  ┌──────────────────────────────┐ │
-│  │ 🔍 Device Status     │  │ ⚡ Flash Patched Boot        │ │
-│  │                      │  │                              │ │
-│  │ Checks ADB, model,   │  │ Select a Magisk-patched .img │ │
-│  │ Android version &    │  │ and flash it via fastboot.   │ │
-│  │ bootloader status.   │  │                              │ │
-│  │  [▶ Check Device]    │  │  [📂 Select & Flash Boot]    │ │
+│  │ 🔍 Device Status     │  │ ⚡ Flash Patched Boot                  │ │
+│  │                      │  │                                        │ │
+│  │ Checks ADB, model,   │  │ Select a Magisk-patched .img           │ │
+│  │ Android version &    │  │ and flash it via fastboot.             │ │
+│  │ bootloader status.   │  │                                        │ │
+│  │  [▶ Check Device]    │  │  [📂 Select & Flash Boot]             │ │
 │  └──────────────────────┘  └──────────────────────────────┘ │
 │  ┌─────────────────────────────────────────────────────────┐ │
-│  │ bash — terminal output                        ↓ ✕      │ │
-│  │ › [RUN]     bash device_check.sh                       │ │
-│  │ › [INFO]    Checking host prerequisites…               │ │
-│  │ ✔ [SUCCESS] adb found: Android Debug Bridge 34.0.4     │ │
-│  │ ✔ [SUCCESS] Model   : Pixel 7                          │ │
-│  │ ✔ [SUCCESS] Bootloader: UNLOCKED (orange)              │ │
+│  │ bash — terminal output                        ↓ ✕                 │ │
+│  │ › [RUN]     bash device_check.sh                                  │ │
+│  │ › [INFO]    Checking host prerequisites…                          │ │
+│  │ ✔ [SUCCESS] adb found: Android Debug Bridge 34.0.4                │ │
+│  │ ✔ [SUCCESS] Model   : Pixel 7                                     │ │
+│  │ ✔ [SUCCESS] Bootloader: UNLOCKED (orange)                         │ │
 │  └─────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -302,7 +302,7 @@ adb devices
 #### Termux Menu
 
 ```
-  🤖  Awesome Android Root Helper
+  🤖   Android Root Helper
   Termux CLI Edition — adb 34.0.4
 ────────────────────────────────────────
 
